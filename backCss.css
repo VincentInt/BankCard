@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700%7CSource+Sans+Pro:400,600,700&display=swap%22);
+body{
+   background: #ddeefc;
+   text-decoration-color: #24292e;
+   font-family: "Source Sans Pro", sans-serif;
+   font-size: 16px;
+}
+.Heading-section{
+   font-family: 'PT Sans';
+}
+:before, *:after {
+   box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+   margin: 0;
+   padding: 0;
+   font-weight: normal;
+}
+
+ol, ul {
+   list-style: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+html{
+   overflow-x: hidden;
+   width: 1920px;
+   
+}
+
+.sect_card{
+   background-color: white;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 6em;
+
+   text-align: center;
+   font-size: 12px;
+   font-weight: 700;
+   font-style: Bold;
+   height: 600px;
+   border-radius: 5%;
+   width: 600px;
+   box-shadow: 10px 10px 10px skyblue;
+ 
+   
+}
+input[type=text] {
+border-radius: 5%;
+outline: none;
+color: rgb(139, 139, 139);
+font-size: 16px;
+font-weight: 700;
+   border: 1px,;
+   width: 210px;
+   height: 42px;
+   width: 100%;
+}
+.form:hover{
+   color: rgb(139, 139, 139);
+}
+.text{
+ color: rgb(139, 139, 139);
+   font-size: 16px;
+   font-weight: 700;
+}
+.div_card{
+
+   margin-left: auto;
+   margin-right: auto;
+   width: 6em;
+
+   padding-top: 25%;
+   width: 490px;
+   display: flex;
+  
+   text-align: left ;
+
+}
+.Number_card{
+   margin-top: 20px;
+}
+.Name_card{
+   margin-top: 20px;
+}
+.div_Card_DateAndCW{
+   margin-top: 20px;
+   display: flex;
+}
+.div_cvv{
+   margin-left: 15px;
+}
+.Text_date{
+   display: block;
+}
+.div_form_date{
+   display: flex;
+   
+}
+.form_date_mount{
+   margin-right: 15px;
+}
+input[type=number]{
+   border-radius: 5%;
+outline: none;
+color: rgb(139, 139, 139);
+font-size: 16px;
+font-weight: 700;
+   border: 1px,;
+   width: 210px;
+   height: 42px;
+   width: 145px;
+   min-width: none;     
+   
+}
+
+.class_button{
+   margin-top: 30px;
+   padding: 15px 25px;
+   border-radius: 4px;
+   box-shadow: 0px 4px 30px -6px rgba(36, 52, 70, 0.65);
+   background: rgb(16, 61, 123);
+   color: white;
+   text-align: center;
+   width: 100%;
+  
+   font-size: 16px;
+   font-weight: 700;
+ 
+}
+.class_button:active{
+   background-color:rgb(12, 50, 102);
+   
+}
